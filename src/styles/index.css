@@ -1,12 +1,20 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 
-/* 
+.contador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.digito {
+    background-color: #181717;
+    margin: 0 10px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    font-weight: bold;
+}
